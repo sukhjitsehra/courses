@@ -1,5 +1,5 @@
 ---
-title: "CP322: Machine Learning"
+title: "CP631: Parallel Computing"
 subtitle: "Academic Year: 2022/23"
 format: html
 ---
