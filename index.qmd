@@ -29,3 +29,6 @@ format:
     <button class="button-61">2022/23</button>
 </a>
 
+<a href="CP322/W26/index.qmd">
+    <button class="button-61">2025/26</button>
+</a>

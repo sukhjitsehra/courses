@@ -1,6 +1,6 @@
 project:
   type: "website"
-  title: "MY_COURSE_NAME 2022/23"
+  title: "MY_COURSE_NAME 2025/26"
   output-dir: _output
   resources:
     - login
@@ -12,7 +12,7 @@ project:
     - "CP322/W26/weeks/week01/*.qmd"
 
 website:
-  title: "MY_COURSE_NAME 2022/23"
+  title: "MY_COURSE_NAME 2025/26"
   page-navigation: true
   reader-mode: true
   open-graph: true
