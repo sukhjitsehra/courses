@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const mongoUri = "mongodb+srv://augustrmschool:gDZJfCJfQ5a65MQn@appdata.sk7ygz3.mongodb.net/?appName=appData";
+const mongoUri = process.env.MONGODB_URI;
 const databaseName = process.env.MONGODB_DB || "coursePortal"
 const collectionName = process.env.MONGODB_COLLECTION || 'courseCodes';
 const redirectField = process.env.COURSE_REDIRECT_FIELD || 'redirectTo';
