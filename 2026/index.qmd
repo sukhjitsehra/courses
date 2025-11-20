@@ -4,6 +4,11 @@ subtitle: "Academic Term: Winter 2026"
 format: html
 ---
 
+::: {.callout-note collapse=false}
+## 📢 Course Description
+With the rise of data science and big data fields, machine learning has gained further recognition as the key driver behind the successful advance of these fields. However, many recent entrants to the field can only utilize the variety of machine learning algorithms as black boxes. This course aims to empower students to effectively use and understand the primary approaches so as to be able to modify them for specific uses. Our focus is less on theory and more on practice. Students engage in hands-on implementation of some of the fundamental algorithms such as predictive modeling and clustering applied to real, open-ended problems.
+:::
+
 ::: {.callout-important collapse=false}
 ## 📢 Important
 
@@ -28,9 +33,10 @@ Assistant Professor<br/>
 
 Office Hours: 
 
-- When:
-- Where:
-- How to book:
+- Office: Sciece Building, Room No: N2062
+- Office hour: Monday from 12:30 PM - 1:30 PM at N2062 (Via Teams Link available on Myls Course Page) OR you can request time by Appointment.
+
+
 
 ## Teaching Staff
 
