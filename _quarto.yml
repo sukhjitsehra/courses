@@ -1,6 +1,6 @@
 project:
   type: "website"
-  title: "CP322 Machine Learning 2025/26"
+  title: "CP322 Machine Learning (Winter 2026)"
   output-dir: _output
   resources:
     - login
@@ -10,7 +10,7 @@ project:
     - "2026/weeks/week01/*.qmd"
 
 website:
-  title: "CP322 Machine Learning 2025/26"
+  title: "CP322 Machine Learning (Winter 2026)"
   page-navigation: true
   reader-mode: true
   open-graph: true

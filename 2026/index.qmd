@@ -1,6 +1,6 @@
 ---
 title: "CP322 Machine Learning"
-subtitle: "Academic Year: 2025/26"
+subtitle: "Academic Term: Winter 2026"
 format: html
 ---
 
@@ -20,7 +20,7 @@ format: html
 ## Course Convenor
 
 
-![](/figures/people/professor_octopus.png){fig-align="left" fig-alt="Photo of Dr. MY NAME" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}  
+![](/figures/people/ssehra.jpg){fig-align="left" fig-alt="Photo of Dr. Sehra" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}  
 **[Sukhjit Singh Sehra](ssehra.com)** <br/>
 Assistant Professor<br/>
 [Wilfrid Laurier University](wlu.ca)</a><br/>
@@ -51,9 +51,9 @@ PhD Candidate at PLACE <br>
 
 Fridays 2pm-4pm at PLACE
 
-# 💻 Class Groups
+<!-- # 💻 Class Groups
 
-::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"} -->
 
 <!-- **Group 01**
 
