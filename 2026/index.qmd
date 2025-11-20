@@ -21,7 +21,7 @@ Section C: 	Mon/Wed from 02:30 PM - 03:50 PM at N1002
 ::: {.panel-tabset}
 ## Course Convenor
 ![](/figures/people/ssehra.jpg){fig-align="left" fig-alt="Photo of Dr. Sehra" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}  
-**[Sukhjit Singh Sehra](ssehra.com)** <br/>
+**[Sukhjit Singh Sehra](https://ssehra.com/)** <br/>
 Assistant Professor<br/>
 [Wilfrid Laurier University](wlu.ca)</a><br/>
 📧 [Email](mailto:ssehra@wlu.ca)

@@ -65,7 +65,7 @@ csl: references/chicago-author-date.csl
 
 format:
   html:
-    author: Dr. [Sukhjit Singh Sehra](ssehra.com)
+    author: Dr. [Sukhjit Singh Sehra](https://ssehra.com/)
     author-meta: Dr. Sukhjit Singh Sehra
     date-format: "DD MMMM YYYY"
 
