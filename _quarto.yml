@@ -1,6 +1,6 @@
 project:
   type: "website"
-  title: "MY_COURSE_NAME 2025/26"
+  title: "CP322 Machine Learning 2025/26"
   output-dir: _output
   resources:
     - login
@@ -10,7 +10,7 @@ project:
     - "2026/weeks/week01/*.qmd"
 
 website:
-  title: "MY_COURSE_NAME 2025/26"
+  title: "CP322 Machine Learning 2025/26"
   page-navigation: true
   reader-mode: true
   open-graph: true
@@ -44,7 +44,7 @@ website:
          - href: 2026/weeks/week01/page.qmd
            text: Week 01
            contents:
-             - href: 2026/W26/weeks/week01/page.qmd
+             - href: 2026/weeks/week01/page.qmd
                text: 👨‍🏫 Lecture Material
             #  - href: 2023/weeks/week01/lab.qmd
             #    text: 💻 Lab Roadmap
@@ -55,7 +55,7 @@ website:
     background: primary
   page-footer:
     background: light
-    left: "Copyright 2023, MY INSTITUTION" 
+    left: "Copyright 2025, S.S.Sehra" 
 
 
 
@@ -65,7 +65,7 @@ csl: references/chicago-author-date.csl
 
 format:
   html:
-    author: Dr. [Sukhjit Singh Sehra](#)
+    author: Dr. [Sukhjit Singh Sehra](ssehra.com)
     author-meta: Dr. Sukhjit Singh Sehra
     date-format: "DD MMMM YYYY"
 
