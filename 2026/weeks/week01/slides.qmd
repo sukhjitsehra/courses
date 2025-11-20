@@ -1,10 +1,10 @@
 ---
-subtitle: "MY_COURSE_CODE -- MY_COURSE_NAME"
+subtitle: "Introduction to Machine Learning"
 title: "<font style='font-size:1em;'>🗓️ Week 01<br/> Introduction</font>"
-author: Prof. [Octopian](#)
-institute: '[University of Octopus Studies](#)'
-date: 14 March 2023
-date-meta: 14 March 2023
+author: Dr. Sukhjit Singh Sehra
+institute: '[Wilfrid Laurier University, Waterloo](#)'
+# date: 14 January 2026
+# date-meta: 14 March 2023
 date-format: "DD MMM YYYY"
 toc: true
 toc-depth: 1
@@ -14,13 +14,14 @@ from: markdown+emoji
 format:
   revealjs: 
     fig-responsive: true
+    smaller: true
     theme: simple
     slide-number: true
     mouse-wheel: false
     preview-links: auto
-    logo: /figures/icons/course_favicon.png
+    logo: /figures/icons/laurier-short.png
     css: /css/styles_slides.css
-    footer: 'MY_COURSE_CODE -- MY_COURSE_NAME'
+    footer: 'CP322: Machine Learning'
 ---
 
 # Who are we
@@ -31,31 +32,31 @@ format:
 
 ::: {.column style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
 <figure>
-    <img src="/figures/people/professor_octopus.png" alt="Photo of Professor Octopian" role="presentation" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;font-size:1em;" class="img-responsive atto_image_button_text-bottom">
+    <img src="/figures/people/ssehra.jpg" alt="Photo of Dr. Sehra" role="presentation" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;font-size:1em;" class="img-responsive atto_image_button_text-bottom">
     <figcaption>
         <strong>Prof.&nbsp;<span><a href="#" target="_blank" class="external">Octopian</a></span></strong> 
-        <br/>Professor of Octopus Issues
-        <br/>Head of the Python vs R Debate Society
+        <br/>Assistant Professor
+        <br/>Department of Computer Science and Physics
     </figcaption>
 </figure>
 :::
 
 ::: {.column style="width:50%;font-size:0.85em;margin-left:3%;"}
-- PhD in Octopi Engineering
-- **Background**: Engineering of Deep Ocean constructions
+- PhD in Computer Science and Engineering
+<!-- - **Background**: Engineering of Deep Ocean constructions -->
 - Former **Lead Data Scientist**
 
-<span class="tag" style="background-color:var(--quarto-hl-st-color)">deep ocean</span>
+<span class="tag" style="background-color:var(--quarto-hl-st-color)">Machine Learning</span>
 <br/>
-<span class="tag" style="background-color:var(--quarto-hl-fu-color)">engineering</span>
+<span class="tag" style="background-color:var(--quarto-hl-fu-color)">Intelligent Tranportation Systems</span>
 <br/>
-<span class="tag" style="background-color:var(--quarto-hl-dv-color)">octopus</span>
+<span class="tag" style="background-color:var(--quarto-hl-dv-color)">Trajectory Optimization</span>
 
 :::
 
 :::
 
-## Teaching Assistants {.smaller}
+<!-- ## Teaching Assistants {.smaller}
 
 ::: columns
 
@@ -87,4 +88,211 @@ format:
 </figure>
 :::
 
-:::
+::: -->
+
+## What is Machine Learning?
+
+Machine Learning is the science \(and art\) of programming computers so that they can learn from data\.
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%293.png){fig-align="center" height=60%}
+
+_Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed\._
+
+_—Arthur Samuel\, 1959_
+
+## Machine Learning Disambiguation
+![](img/Day%201%20-%20Machine%20Learning%20%281%294.png){fig-align="center" height=80%}
+<!-- {fig-align="center"} -->
+
+## Types of Machine Learning
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%295.png)
+
+## Machine Learning Comparison
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%296.png)
+
+## Machine Learning Algorithms
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%297.png){fig-align="center" height=80%}
+
+## Machine Learning Applications
+
+- Segment customers based on their purchases so you can design a different marketing strategy for each segment
+
+- Suggesting a product that a customer might be interested in based on past purchases
+
+- Analyzing images of products on a production line to automatically classify
+
+- Automatically categorize the news
+
+- Automatically flag offensive comments on discussion forums
+
+- Create a chatbot or personal assistant
+
+- Predict your company's revenue for the next year based on many performance metrics
+
+- Making your app respond to voice commands
+
+- Creating a smart bot for a game
+
+<!-- ## Mathematics in Machine Learning: Linear Algebra -->
+
+<!-- ![](img/Day%201%20-%20Machine%20Learning%20%281%298.png) -->
+
+<!-- ## Probability and Statistics -->
+
+<!-- __Descriptive Statistics and Statistics Tests__ -->
+
+<!-- __Distributions__ -->
+
+<!-- __Model Performance Measurements__ -->
+
+<!-- ![](img/Day%201%20-%20Machine%20Learning%20%281%299.png) -->
+
+<!-- ![](img/Day%201%20-%20Machine%20Learning%20%281%2910.png) -->
+
+<!-- ![](img/Day%201%20-%20Machine%20Learning%20%281%2911.png) -->
+
+## Machine Learning Project Steps
+
+- Seeing the big picture and understanding the project
+
+- Collect data
+
+- Examine and visualize data
+
+- Fitting Data to Machine Learning Models
+
+- Model selection and training of the model
+
+- Optimizing the model
+
+- Integrating the model into the system
+
+## Big picture and understanding the project
+
+- Define the goal in terms of business
+
+- What are the current solutions/workarounds?
+
+- How should you evaluate this issue \(supervised/unsupervised\, online/offline etc\.\)?
+
+- How should performance be measured?
+
+- What would be the minimum performance required to meet the business goal?
+
+- Is human expertise available?
+
+- How do you fix the problem manually?
+
+- List the assumptions you \(or others\) have made so far
+
+## Collect Data
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2917.png)
+
+## Examine and Visualize Data
+
+It is the work that allows us to quickly recognize the data\, given to creating simple graphs \(eg box charts\, scatter plots\) that help to draw a picture of a data set\, along with summary statistics \(mean\, median\, quantities\, etc\.\)\.
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2919.png)
+
+## Fitting the Data to the Model
+
+* __Cleaning and Editing Data__
+  * Cleaning up Unnecessary or Non\-Informational Data
+  * Fixing wrong data
+  * Combining data from different sources
+* __Determining Data Types__
+  * Date\, Numeric\, Text etc\. checking data in formats
+  * Performing appropriate data type conversions
+* __Data Size Reduction__
+  * PCA
+  * Elimination of redundant columns and correlation analysis
+* __Examination of data distributions and regularization__
+  * Min\-max Scaling
+  * Standardization
+
+## Model selection and training of the model
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2922.png)
+
+## Success Performances: Classification Metrics
+
+Complexity Matrix
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2923.png)
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2924.png)
+
+## Success Performances: Regression Metrics
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2925.png)
+
+## Optimizing the model
+
+- Fine tune hyperparameters using cross validation
+
+- Perform hyperparameter searches\, gridsearch etc\.
+
+- Try Ensemble methods\. Combining your best models often performs better than running them individually
+
+- You'll want to use as much data as possible for this step\, especially as you move towards the end of the tweak\.
+
+- Once you are sure of your final model\, measure its performance on the test set to estimate its generalization error\.
+
+## Integrating the model into the system (Deployment)
+
+- ML Deployment is the integration of a data\-driven machine learning model into an existing production environment\.
+
+- The machine learning project developed in the test environment is made ready to work on platforms such as web services \(SaaS\, PaaS\) in order to serve the end user\.
+
+- __Streamlit\,__  HTML or CSS etc\. It is an open source python library that helps you create interactive web applications without knowledge of it\.
+
+- __Docker __ is by far one of the most popular ways for developers to containerize their code\.
+
+- __Heroku __ is a cloud computing application infrastructure service provider \(PaaS\)
+
+## Machine Learning Terminologies: Cross Validation
+
+Cross validation\, also called CV\, is a method used to select a model that does not rely heavily on the initial training set\.
+
+![](img/Day%201%20-%20Machine%20Learning%20%281%2930.png)
+
+## Bias - Variance Tradeoff
+
+__Bias: __ The bias of a model is the difference between the expected prediction and the correct model we are trying to predict for the given data points\.
+
+__Variance: __ The variance of a model is the variability of the model estimate for given data points\.
+
+__Deviation/variance Tradeoff: __ The simpler the model\, the higher the bias\, and the more complex the model\, the higher the variance\.
+
+|  | Underfitting | Ideal | Overfitting |
+| :-: | :-: | :-: | :-: |
+| Symptoms | Higher training error<br />Training error close to test error<br />High bias | Training error slightly lower than test error | Very low training error<br />Training error is considerably lower than test error<br />High variance |
+
+
+## Tools Used in Machine Learning
+
+__Python __ is a general purpose programming language.
+__NumPy __ is the basic package used for scientific calculations in Python\.
+__Pandas__  is an open source Python library that facilitates data analysis and data preprocessing\.
+
+
+__Matplotlib __ is a data visualization and plotting library for the Python programming language
+
+The matplotlib plotting package is one of the most important tools for scientific programming with Python
+
+__Scikit\-learn __ is a free software machine learning library for the Python programming language\.
+
+It includes many basic methods such as linear regression\, logistic regression\, decision trees\, random forest\.
+
+## Datasets
+
+__Kaggle__  is an online community for data scientists and machine learning practitioners\.
+
+__UCI __ is the dataset repository provided by the machine learning and intelligent systems research center at the __ University of California\, Irvine\.
+
+__Google Datasets__ Discover and access unique and valuable datasets.
+
