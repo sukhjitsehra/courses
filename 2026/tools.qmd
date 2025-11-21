@@ -17,9 +17,7 @@ Google Colab is the easiest way to get started because everything runs online. Y
 
 ### Step 1: Sign in
 
-Open your browser and go to
-[https://colab.research.google.com](https://colab.research.google.com)
-Sign in using your Google account.
+Open your browser and go to [https://colab.research.google.com](https://colab.research.google.com) and sign in using your Google account.
 
 ### Step 2: Open a notebook
 
@@ -45,6 +43,7 @@ Example:
 !pip install seaborn
 ```
 
+Here, '!' is used to run the system terminal commands
 ### Step 5: Save your work
 
 You can save the notebook to your Google Drive using File, then Save a copy in Drive. You can also download it to your computer as an .ipynb file. This approach is great when you want fast setup or you are working on a Chromebook or a system without Python installed.
@@ -55,21 +54,12 @@ This option gives you more control and is closer to how real projects are develo
 
 ### Step 1: Install VS Code
 
-Download and install Visual Studio Code from
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-Accept the default settings during installation.
-
-I have crafted a tutorial for installing vscode and setting up Python, to read click [here](https://sukhjitsehra.github.io/vscode/)
+Download and install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/). Accept the default settings during installation. I have crafted a tutorial for installing vscode and setting up Python, to read click [here](https://sukhjitsehra.github.io/vscode/)
 
 ### Step 2: Install Miniconda
 
-Miniconda is a small Python distribution that helps you create clean environments.
-
-Download the installer for your system from
-[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-
-Run the installer and choose the following:
+Miniconda is a small Python distribution that helps you create clean environments.  Download the installer for your system from
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html). Run the installer and choose the following:
 
 * Install for your user only
 * Add Miniconda to your PATH or let the installer manage it automatically
@@ -79,9 +69,7 @@ Restart your computer after installation to ensure all paths work correctly.
 
 ### Step 3: Create a Python environment
 
-Open a terminal. On Windows you can search for Anaconda Prompt or use Command Prompt. On macOS or Linux use your normal terminal.
-
-Create a new environment. Example:
+Open a terminal. On Windows you can search for Anaconda Prompt or use Command Prompt. On macOS or Linux use your normal terminal.  Create a new environment. Example:
 
 ```
 conda create -n mlcourse python=3.12
@@ -117,12 +105,7 @@ In the same Extensions tab search for Jupyter and install the official Jupyter e
 
 ### Step 7: Open your notebook
 
-In VS Code go to File, then Open Folder.
-Select your course folder or repository.
-Open any .ipynb file.
-VS Code will ask which interpreter you want to use. Select the Python interpreter from your conda environment.
-
-For example it may look like:
+In VS Code go to File, then Open Folder. Select your course folder or repository. Open any .ipynb file. VS Code will ask which interpreter you want to use. Select the Python interpreter from your conda environment. For example it may look like:
 
 ```
 Python 3.12.0 ('mlcourse')
@@ -134,15 +117,13 @@ Click a cell and press Shift plus Enter. You will see output just like in Jupyte
 
 ### Step 9: Install extra packages when needed
 
-If a notebook requires new libraries, install them inside the activated environment:
+If a notebook requires new libraries, install them inside the activated environment via terminal:
 
 ```
 pip install seaborn
 ```
 
-Refresh the kernel in VS Code afterward.
-
-
+Refresh the kernel in VS Code afterward. Rest we will do experimentation in the class too
 
 ## Syzygy
 
