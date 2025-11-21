@@ -28,6 +28,8 @@ website:
         text: "🏠 Home"
       - href: 2026/syllabus.qmd
         text: "📓 Syllabus"
+      - href: 2026/tools.qmd
+        text: "📓 Software Tools"
       # - href: 2023/communication.qmd
       #   text: "📟 Communication"
       # - href: 2023/assignments.qmd
