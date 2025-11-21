@@ -114,7 +114,7 @@ execute:
 
 It is the science \(and art\) of programming computers so that they can learn from data.  
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%293.png){fig-align="center" height=60%}
+![](img/prof.png){fig-align="center" height=60%}
 
 _Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed (Arthur Samuel\, 1959)_
 
@@ -128,15 +128,15 @@ _Machine Learning is the field of study that gives computers the ability to lear
 
 ## Types of Machine Learning {background-color="black"}
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%295.png)
+![](img/tree.png)
 
 ## Machine Learning Comparison
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%296.png)
+![](img/output.png)
 
 ## Machine Learning Algorithms
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%297.png){fig-align="center" height=80%}
+![](img/types.png){fig-align="center" height=80%}
 
 ## Machine Learning Applications
 
@@ -212,13 +212,13 @@ _Machine Learning is the field of study that gives computers the ability to lear
 
 ## Collect Data
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2917.png)
+![](img/data.png)
 
 ## Examine and Visualize Data
 
 It is the work that allows us to quickly recognize the data\, given to creating simple graphs \(eg box charts\, scatter plots\) that help to draw a picture of a data set\, along with summary statistics \(mean\, median\, quantities\, etc\.\)\.
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2919.png)
+![](img/visual.png)
 
 ## Fitting the Data to the Model
 
@@ -238,7 +238,7 @@ It is the work that allows us to quickly recognize the data\, given to creating 
 
 ## Model selection and Training
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2922.png)
+![](img/testtrain.png)
 
 ## Performances: Classification Metrics
 
@@ -247,21 +247,21 @@ It is the work that allows us to quickly recognize the data\, given to creating 
 ::: {.column style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
 Complexity Metrics
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2923.png)
+![](img/metrics.png)
 
 :::
 
 ::: {.column style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
 
 Confusion Matrix
-![](img/Day%201%20-%20Machine%20Learning%20%281%2924.png)
+![](img/confusion.png)
 
 :::
 :::
 
 ## Performances: Regression Metrics
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2925.png)
+![](img/regmetrics.png)
 
 ## Optimizing the model
 
@@ -291,7 +291,7 @@ Confusion Matrix
 
 Cross validation\, also called CV\, is a method used to select a model that does not rely heavily on the initial training set\.
 
-![](img/Day%201%20-%20Machine%20Learning%20%281%2930.png)
+![](img/cv.png)
 
 ## Bias - Variance Tradeoff
 
