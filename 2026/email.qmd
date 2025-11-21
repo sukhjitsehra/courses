@@ -1,0 +1,25 @@
+## CP322: Emailing Rules
+* When sending us email, here are some things to keep in mind:
+
+* Do not use MLS for email. Always use your mylaurier.ca account.
+
+* Always have a subject line, and start that line with `CP322: Section`. That way we know what course and section you are talking about. All of us have to deal with many courses and often multiple sections per course.
+
+* Include your full name and ID number - we can't always tell from the email address who you are.
+
+* Email the course instructor if your question is about:
+    * help understanding course concepts
+    * help with assignment questions
+    * dropping the course
+    * questions about what will be on the test or exams
+    * missing tests, sick notes, etc.
+    * anything else not covered above
+    * technical issues (e.g.installing Ubuntu/C)
+
+* If you email more than one of the above people, with the same question, do not send multiple separate emails - copy the same email to everyone, that way we know that we all have the same email and one of us can reply appropriately.
+
+* Use discussion forums to get help and to help others
+
+* Do not send screen shots or code snippets. Often the error is not where you think it is, thus the point above.
+
+* Be Polite.

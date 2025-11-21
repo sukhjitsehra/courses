@@ -30,6 +30,8 @@ website:
         text: "📓 Syllabus"
       - href: 2026/tools.qmd
         text: "📓 Software Tools"
+      - href: 2026/email.qmd
+        text: "📓 Emailing Rules"
       # - href: 2023/communication.qmd
       #   text: "📟 Communication"
       # - href: 2023/assignments.qmd
