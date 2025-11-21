@@ -1,6 +1,14 @@
 # Working with Python Jupyter Notebooks
 
-You can work with Jupyter notebooks in two main ways. The first uses Google Colab, which runs everything in the browser. The second uses VS Code on your own computer with a proper Python environment. Both options let you run NumPy, Pandas, Matplotlib, scikit learn and any other library you need for the course.
+## **Jupyter Notebook**
+
+The Jupyter Notebook is an interactive computing environment that enables users to author notebook documents. It allows you to create and share documents that contain live code, equations, visualizations, and narrative text. It is used for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and more.  Notebook documents provide a complete, self-contained record of a computation that can be converted to various formats and shared (email, Dropbox, GitHub, etc.).
+
+::: {.callout-important collapse=false}
+
+You can work with Jupyter notebooks in three main ways. The first uses Google Colab, which runs everything in the browser. The second uses Syzygy platform, that presents a pure Jupyter Notebook Environment. The last one is VS Code on your own computer with a proper Python environment. Both options let you run NumPy, Pandas, Matplotlib, scikit learn and any other library you need for the course.
+
+:::
 
 ::: {.panel-tabset}
 
@@ -46,7 +54,7 @@ You can also download it to your computer as an .ipynb file.
 
 This approach is great when you want fast setup or you are working on a Chromebook or a system without Python installed.
 
----
+
 
 ## Local
 
@@ -143,17 +151,191 @@ pip install seaborn
 
 Refresh the kernel in VS Code afterward.
 
----
+
 
 ## Syzygy
 
+
+* [Syzygy](https://wlu.syzygy.ca/) is a joint project of the Pacific Institute for the Mathematical Sciences (PIMS).
+* It offers a free web-based Jupyter Notebook platform to universities.
+* No setup is required; it runs entirely in Compute Canada’s cloud.
+* You can write and execute code, save and share analyses, and access strong computing resources directly in your browser.
+* Syzygy provides a *pure* Jupyter environment.
+* It offers 8/16 cores and 64/128 GB for each university, partitioned between users via Docker.
+
+::: {.callout-important collapse=false}
+**Warning:** Syzygy gives limited storage to each student. Avoid uploading large files.
 :::
 
+### **Launching Jupyter Notebook**
+
+* Access the Syzygy platform using the link provided on MyLS.
+* This environment is integrated into your Laurier account.
+* Create a folder named `CP322` on your computer for all worksheets.
+* Upload `.ipynb` files to JupyterHub and open them.
+
+## **Notebook Dashboard**
+
+Contains three tabs:
+
+* **Files** — shows files and folders under the current directory.
+* **Launcher** — shows different options available to work in Syzygy.
+
+## **Notebook User Interface**
+
+It includes:
+
+* Menu bar
+* Toolbar
+* Notebook area with cells
+
+## **Notebook Area and Cells**
+
+Notebooks contain a sequence of cells.
+
+Types of cells:
+
+* **Code cells** — executable code (grey). Run with:
+
+  * `Ctrl/Cmd + Enter` (run in place)
+  * `Shift + Enter` (run and move to next)
+  * `Alt/Option + Enter` (run and insert new cell)
+* **Markdown cells** — narrative text with LaTeX (white).
+* **Raw cells** — unformatted text included without modification.
+
+Rich output (images, video, plots) is embedded directly.
+
+## **Code Cells**
+
+Ways to execute:
+
+* `Cmd/Ctrl + Enter`
+* `Shift + Enter`
+* `Alt/Option + Enter`
+
+The **Cell** menu includes:
+
+* Run Cells
+* Run and Select Below
+* Run and Insert Below
+* Run All
+* Run All Above
+* Run All Below
+
+## **Adding and Moving Cells**
+
+* Add new cells using the **+** buttons between cells or via the toolbar.
+* Move cells with "Cell Up" or "Cell Down" in the toolbar.
+* Select consecutive cells with a lasso drag.
+* Select non-adjacent cells: `Ctrl + Click`.
+* Select ranges: `Shift + Click`.
+
+## **Shortcuts**
+
+* **Edit mode / Command mode**: `Enter` / `Esc`
+* **Command mode actions**:
+
+  * `A` — insert cell above
+  * `B` — insert cell below
+  * `M` — convert to Markdown
+  * `Y` — convert to Code
+  * `D D` — delete cell
+  * `Z` — undo deletion
+  * `Shift + Up/Down` — select multiple cells
+  * `Shift + M` — merge cells
+* **Edit mode**:
+
+  * `Ctrl + Shift + -` — split cell
+
+## **Text / Markdown Cells**
+
+* Double-click to edit.
+* Supports Markdown syntax.
+* Supports LaTeX using `$...$` (inline) or `$$...$$` (display).
+* Markdown spec: [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
+
+## **Markdown Basics**
+
+### **Headings**
+
+Use `#` symbols:
+
+```
+# Heading 1
+##### Heading 5
+```
+
+### **Emphasis**
+
+* **Bold** — `**text**`
+* *Italic* — `*text*` or `_text_`
+* ~~Strikethrough~~ — `~~text~~`
+* `Monospace` — backticks
+
+### **Math**
+
+Inline:
+
+```
+$y = 0.1x$
+```
+
+### **Indenting**
+
+Use `>` for block quotes.
+
+### **Bullets**
+
+* `-` space
+* `*` space
+
+Sub-bullets: indent with Tab.
+
+### **Numbered Lists**
+
+```
+1. Item
+1. Item
+```
+
+Substep: indent with Tab.
+
+### **Links**
+
+```
+[link text](https://url.com)
+```
+
+Plain URLs auto-link.
+
+## **Creating a New Notebook**
+
+* Click **New** in the Jupyter browser.
+* Choose Python or R kernel.
+* Rename the notebook by clicking the title.
+
+## **Uploading a Notebook or Data File**
+
+* Click **Upload** in the Jupyter file browser.
+* Upload `.ipynb` or `.csv` files.
+* Double-click to open.
+
+---
+
+If you want, I can also produce:
+
+* A **PDF-ready** Quarto version
+* A **student handout** version
+* A **slide deck (reveal.js)** version
+
+Just tell me what format you need.
+
+:::
+
+::: {.callout-important collapse=false}
 
 ## Which option should you choose
 
-Google Colab is fast and convenient.
-VS Code gives you full control and is better for larger projects.
+Google Colab is fast, convenient, and powerful. If you want to use alternative you can use Syzygy. VS Code gives you full control and is better for larger projects.  All methods work for every notebook in this course. Once you are comfortable with both, you can switch between them depending on what you are working on.
 
-Both methods work for every notebook in this course. Once you are comfortable with both, you can switch between them depending on what you are working on.
-
+:::
