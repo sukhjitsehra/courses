@@ -19,6 +19,8 @@ _book
 /_output/
 /_site/
 /site_libs/
+.github/
+.gitatributes
 
 # History files
 .Rhistory

@@ -26,7 +26,14 @@ To open this week's notebooks, choose one of the following:
 - Open in Google Colab
 
 - Use WLU Syzygy (wlu.syzygy.ca)
-   
+
+<iframe src="notebooks/Numpy_Pandas_Worksheet.ipynb"
+        width="100%"
+        height="500px">
+</iframe>
+
+[Open full notebook in Google Colab →](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
+
 ## ✍️  Recommended Reading
 
 - Check the end of slides for the list of references cited in the lecture.

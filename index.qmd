@@ -6,7 +6,7 @@ format:
     include-after-body: helpers/remove-title.html
 ---
 
-# 📑 Course Brief
+<!-- # 📑 Course Brief
 
 **Focus:** the focus of this course is to learn stuff
 
@@ -31,4 +31,4 @@ format:
 
 <a href="CP322/W26/index.qmd">
     <button class="button-61">2025/26</button>
-</a>
+</a> -->
