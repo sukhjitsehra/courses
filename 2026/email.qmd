@@ -14,7 +14,7 @@
     * questions about what will be on the test or exams
     * missing tests, sick notes, etc.
     * anything else not covered above
-    * technical issues (e.g.installing Ubuntu/C)
+    * technical issues (e.g. model building)
 
 * If you email more than one of the above people, with the same question, do not send multiple separate emails - copy the same email to everyone, that way we know that we all have the same email and one of us can reply appropriately.
 
