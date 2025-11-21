@@ -14,7 +14,7 @@ With the rise of data science and big data fields, machine learning has gained f
 ::: {.callout-note collapse=false}
 # 📍 Lecture Information 
 
-* **Section C: 	Mon/Wed from 02:30 PM - 03:50 PM at Science Building Room - N1002**
+**Section C: 	Mon/Wed from 02:30 PM - 03:50 PM at Science Building Room - N1002**
 :::
 
 # 🧑🏻‍🏫 Our Team
