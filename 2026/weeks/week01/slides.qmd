@@ -1,8 +1,8 @@
 ---
-subtitle: "Introduction to Machine Learning"
-title: "<font style='font-size:1em;'>🗓️ Week 01<br/> Introduction</font>"
+title: "Machine Learning"
+subtitle: "Programs that improve at a task through experience, measured by performance"
 author: Dr. Sukhjit Singh Sehra
-institute: '[Wilfrid Laurier University, Waterloo](#)'
+institute: "<font style='font-size:2em;'> Department of Computer Science and Physics, </br> Wilfrid Laurier University, Waterloo </font>"
 # date: 14 January 2026
 # date-meta: 14 March 2023
 date-format: "DD MMM YYYY"
@@ -13,20 +13,31 @@ center-title-slide: false
 from: markdown+emoji
 format:
   revealjs: 
-    fig-responsive: true
+    slide-number: c/t
+    # height: 1080
+    # width: 1920
+    css: [../../../css/syntax-highlight.css, ../../../css/custom.css, /css/pacman.css, ../../../css/styles_slides.css]
+    chalkboard: 
+      buttons: TRUE
+    # fig-responsive: true
     smaller: true
-    theme: simple
-    slide-number: true
+    theme: [../../../css/monash.scss]
     mouse-wheel: false
     preview-links: auto
+    progress: true
+    code-link: true
+    code-overflow: wrap
+    preload-iframes: true
+    fig-align: "center"
+    page-layout: full
     logo: /figures/icons/laurier-short.png
-    css: /css/styles_slides.css
     footer: 'CP322: Machine Learning'
+execute: 
+  eval: true
+  echo: true
 ---
 
-# Who are we
-
-## Your lecturer {.smaller}
+## About Instructor {.smaller}
 
 ::: columns
 
@@ -34,7 +45,7 @@ format:
 <figure>
     <img src="/figures/people/ssehra.jpg" alt="Photo of Dr. Sehra" role="presentation" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;font-size:1em;" class="img-responsive atto_image_button_text-bottom">
     <figcaption>
-        <strong>Prof.&nbsp;<span><a href="#" target="_blank" class="external">Octopian</a></span></strong> 
+        <strong>Dr.&nbsp;<span><a href="#" target="_blank" class="external">Sukhjit S Sehra</a></span></strong> 
         <br/>Assistant Professor
         <br/>Department of Computer Science and Physics
     </figcaption>
@@ -43,8 +54,8 @@ format:
 
 ::: {.column style="width:50%;font-size:0.85em;margin-left:3%;"}
 - PhD in Computer Science and Engineering
-<!-- - **Background**: Engineering of Deep Ocean constructions -->
-- Former **Lead Data Scientist**
+**Background**: Possesses 19+ years of experience in research, academia, and industry.
+
 
 <span class="tag" style="background-color:var(--quarto-hl-st-color)">Machine Learning</span>
 <br/>
@@ -92,7 +103,7 @@ format:
 
 ## What is Machine Learning?
 
-Machine Learning is the science \(and art\) of programming computers so that they can learn from data\.
+ is the science \(and art\) of programming computers so that they can learn from data\.
 
 ![](img/Day%201%20-%20Machine%20Learning%20%281%293.png){fig-align="center" height=60%}
 
@@ -100,11 +111,11 @@ _Machine Learning is the field of study that gives computers the ability to lear
 
 _—Arthur Samuel\, 1959_
 
-## Machine Learning Disambiguation
-![](img/Day%201%20-%20Machine%20Learning%20%281%294.png){fig-align="center" height=80%}
+## Machine Learning Disambiguation 
+![](img/Day%201%20-%20Machine%20Learning%20%281%294.png){fig-align="center" width=50%}
 <!-- {fig-align="center"} -->
 
-## Types of Machine Learning
+## Types of Machine Learning {background-color="black"}
 
 ![](img/Day%201%20-%20Machine%20Learning%20%281%295.png)
 
@@ -218,15 +229,26 @@ It is the work that allows us to quickly recognize the data\, given to creating 
 
 ![](img/Day%201%20-%20Machine%20Learning%20%281%2922.png)
 
-## Success Performances: Classification Metrics
+## Performances: Classification Metrics
 
-Complexity Matrix
+::: columns
+
+::: {.column style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
+Complexity Metrics
 
 ![](img/Day%201%20-%20Machine%20Learning%20%281%2923.png)
 
+:::
+
+::: {.column style="display:inline-block;width:40%;height:60%;border-radius:1em;margin:1%;padding:1.5%;background-color:#f5f5f5"}
+
+Confusion Matrix
 ![](img/Day%201%20-%20Machine%20Learning%20%281%2924.png)
 
-## Success Performances: Regression Metrics
+:::
+:::
+
+## Performances: Regression Metrics
 
 ![](img/Day%201%20-%20Machine%20Learning%20%281%2925.png)
 

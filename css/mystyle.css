@@ -1,0 +1,54 @@
+  .reveal h1 { font-size: 150%; 
+    color: #fefcfb;
+  background-color: #fefcfb;;}
+
+  .reveal h2 { font-size: 130%;
+    color: #fefcfb;
+    background-color: #572C83;
+    text-align: center;
+  }
+
+  .reveal .title-slide h2{
+    text-align: center;
+    color: #f5bd30;
+  }
+  
+  .reveal .title-slide {
+    background-color: #2e3b05;
+  }
+  /* .reveal {
+    background-image: url("");
+    background-size: cover;
+  } */
+  /* Set the background color */
+body {
+    background-color: #000204;
+      font-size: 8px;   
+}
+
+/* Change the text color to black */
+body, h1, h2, h3, h4, h5, h6, p, a, li {
+    color: rgb(0, 3, 14);
+}
+
+/* Change the link color to blue */
+a {
+    color: #0066CC;
+}
+
+/* Change the color of the headings to blue */
+h1, h2, h3, h4, h5, h6 {
+    color: #cc0000b9;
+}
+
+/* section {
+  border: 2px solid black;
+  padding: 20px;
+} */
+
+/* .reveal pre.sourceCode code {
+  background-color: green;
+  padding: 6px 9px;
+  max-height: 500px;
+  white-space: pre;
+} */
