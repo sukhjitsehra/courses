@@ -4,17 +4,18 @@ subtitle: "Academic Term: Winter 2026"
 format: html
 ---
 
-::: {.callout-note collapse=true}
+::: {.callout-note collapse=false}
 ## 📢 Course Description
 _3 lecture hoursCredit: 0.50 Prerequisite: CP312_
 
 With the rise of data science and big data fields, machine learning has gained further recognition as the key driver behind the successful advance of these fields. However, many recent entrants to the field can only utilize the variety of machine learning algorithms as black boxes. This course aims to empower students to effectively use and understand the primary approaches so as to be able to modify them for specific uses. Our focus is less on theory and more on practice. Students engage in hands-on implementation of some of the fundamental algorithms such as predictive modeling and clustering applied to real, open-ended problems.
 :::
 
-# 📍 Lecture
+::: {.callout-note collapse=false}
+# 📍 Lecture Information 
 
 * **Section C: 	Mon/Wed from 02:30 PM - 03:50 PM at Science Building Room - N1002**
-
+:::
 
 # 🧑🏻‍🏫 Our Team
 
