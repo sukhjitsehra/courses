@@ -1,0 +1,150 @@
+# Working with Python Jupyter Notebooks
+
+You can work with Jupyter notebooks in two main ways. The first uses Google Colab, which runs everything in the browser. The second uses VS Code on your own computer with a proper Python environment. Both options let you run NumPy, Pandas, Matplotlib, scikit learn and any other library you need for the course.
+
+## 1. Using Google Colab
+
+Google Colab is the easiest way to get started because everything runs online. You do not need to install anything on your computer.
+
+### Step 1: Sign in
+
+Open your browser and go to
+[https://colab.research.google.com](https://colab.research.google.com)
+Sign in using your Google account.
+
+### Step 2: Open a notebook
+
+You can start in three ways.
+
+• Click File, then New notebook to create a blank notebook
+• Upload a notebook from your computer using File, then Upload notebook
+• Open a notebook directly from GitHub by selecting File, then Open notebook, then the GitHub tab
+
+If your course repository has notebooks, paste the GitHub link in the search bar and Colab will load them.
+
+### Step 3: Run a cell
+
+Click a code cell and press Shift plus Enter to run it.
+Colab gives you a full Python runtime with popular libraries already installed.
+
+### Step 4: Install extra packages
+
+If a notebook needs a library that is not available, you can install it inside the notebook.
+
+Example:
+
+```
+!pip install seaborn
+```
+
+### Step 5: Save your work
+
+You can save the notebook to your Google Drive using File, then Save a copy in Drive.
+You can also download it to your computer as an .ipynb file.
+
+This approach is great when you want fast setup or you are working on a Chromebook or a system without Python installed.
+
+---
+
+## 2. Working Locally in VS Code
+
+This option gives you more control and is closer to how real projects are developed. You will install Miniconda, create a Python environment, and run notebooks in VS Code.
+
+### Step 1: Install VS Code
+
+Download and install Visual Studio Code from
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+Accept the default settings during installation.
+
+### Step 2: Install Miniconda
+
+Miniconda is a small Python distribution that helps you create clean environments.
+
+Download the installer for your system from
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+
+Run the installer and choose the following:
+
+• Install for your user only
+• Add Miniconda to your PATH or let the installer manage it automatically
+• Accept default directory
+
+Restart your computer after installation to ensure all paths work correctly.
+
+### Step 3: Create a Python environment
+
+Open a terminal. On Windows you can search for Anaconda Prompt or use Command Prompt. On macOS or Linux use your normal terminal.
+
+Create a new environment. Example:
+
+```
+conda create -n mlcourse python=3.12
+```
+
+Activate the environment:
+
+```
+conda activate mlcourse
+```
+
+You now have an isolated space where you can install Python libraries without affecting the rest of your system.
+
+### Step 4: Install Jupyter and common packages
+
+Inside your activated environment run:
+
+```
+pip install jupyter numpy pandas matplotlib scikit-learn
+```
+
+This installs the tools you need for most notebooks.
+
+### Step 5: Install the VS Code Python extension
+
+Open VS Code.
+Go to the Extensions tab on the left.
+Search for Python. Install the official extension by Microsoft.
+
+### Step 6: Install the Jupyter extension
+
+In the same Extensions tab search for Jupyter.
+Install the official Jupyter extension.
+This extension lets you open and run .ipynb notebooks inside VS Code.
+
+### Step 7: Open your notebook
+
+In VS Code go to File, then Open Folder.
+Select your course folder or repository.
+Open any .ipynb file.
+VS Code will ask which interpreter you want to use. Select the Python interpreter from your conda environment.
+
+For example it may look like:
+
+```
+Python 3.12.0 ('mlcourse')
+```
+
+### Step 8: Run cells
+
+Click a cell and press Shift plus Enter. You will see output just like in Jupyter Notebook or Colab.
+
+### Step 9: Install extra packages when needed
+
+If a notebook requires new libraries, install them inside the activated environment:
+
+```
+pip install seaborn
+```
+
+Refresh the kernel in VS Code afterward.
+
+---
+
+## Which option should you choose
+
+Google Colab is fast and convenient.
+VS Code gives you full control and is better for larger projects.
+
+Both methods work for every notebook in this course. Once you are comfortable with both, you can switch between them depending on what you are working on.
+

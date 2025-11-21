@@ -15,24 +15,17 @@ Use your keypad to navigate the slides.
 
 ## 📚 Jupyter Notebooks
 
-All Jupyter notebooks for this course are available in the course GitHub repository. Each week is maintained in its own branch (week01, week02, ...); switch to the branch for the week you want to view.
+You can practice this week’s material directly in Google Colab. The following notebooks are ready to open:
 
-Visit: https://github.com/sukhjitsehra/CP322
+• [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
+• [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
+• [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
 
-To open this week's notebooks, choose one of the following:
+These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
 
-- Clone and run locally
+If you prefer a different setup, please click [here](slides.qmd) 
 
-- Open in Google Colab
-
-- Use WLU Syzygy (wlu.syzygy.ca)
-
-<iframe src="notebooks/Numpy_Pandas_Worksheet.ipynb"
-        width="100%"
-        height="500px">
-</iframe>
-
-[Open full notebook in Google Colab →](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
+Choose whichever environment you’re most comfortable with.
 
 ## ✍️  Recommended Reading
 
