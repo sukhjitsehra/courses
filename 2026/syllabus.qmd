@@ -61,10 +61,10 @@ Note: this schedule is subject to change. All times are based upon Eastern Stand
 | 8 | Feb 22, 2026 | Support Vector Machines |  | Midterm (Feb 25) |
 | 9 | Mar 1, 2026 | Neural Networks; Deep Learning | A#3 due / A#4 out |  |
 | 10 | Mar 8, 2026 | Deep Learning (continued) |  |  |
-| 11 | Mar 15, 2026 | Main Memory | A#4 due / Project out |  |
-| 12 | Mar 22, 2026 | Unsupervised Learning; Clustering; K-means; Model-based Clustering |  |  |
-| 13 | Mar 29, 2026 | File Systems Implementation | Project due |  |
-| 14 | Apr 5, 2026 | Reinforcement Learning; Projection Pursuit; Model Averaging; Review | A#7 |  |
+| 11 | Mar 15, 2026 | Unsupervised Learning; Clustering; K-means; Model-based Clustering  | A#4 due / Project out |  |
+| 12 | Mar 22, 2026 | Hierarchical Clustering Analysis |  |  |
+| 13 | Mar 29, 2026 | Reinforcement Learning; | Project due |  |
+| 14 | Apr 5, 2026 |  Projection Pursuit; Model Averaging; Review | A#7 |  |
 
 ## Missed Assignments
 
@@ -78,25 +78,38 @@ An assignment not handed in receives a mark of **Zero** unless there is a docume
 
 A missed midterm exam will receive a mark of **Zero** unless there is a valid documented reason. Weight shifting is only given to students with verifiable extenuating circumstances. An extenuating circumstance is a rare and severe event for which a student has no control or cannot anticipate (for example, a serious accident or emergent medical condition).
 
+## Final Exam:
+To be announced by the registrar's office. If you are considering registering for a special examination or event, you should select a time outside the examination period. Consult Academic Regulations in the Academic Calendar for special circumstances for examination deferment. 
+
+
 ## Getting Help
 
--   MyLearningSpace: You should frequently visit your instructor's CP322 webpage on Myls. It contains information pertinent to the course.
+* You should frequently visit your instructor's CP322 webpage on Course Website/ Myls. It contains information pertinent to the course.
 
--   Use discussion forum on Myls: You are encouraged to post your questions on the discussion forum at Myls. For each chapter and assignment, you would see a thread where you can post the questions. Make sure to review earlier posts to check if your question had not been answered.
+* Use the discussion forum on Myls: You are encouraged to post your questions on the discussion forum at Myls. For each chapter and assignment, you would see a thread where you can post the questions. Review earlier posts to check if your question had not been answered.
+* If the issue/question is not appropriately addressed, you should consult your instructor without delay through email or during office hours are given on page 1. Please do not email me via Myls, and do not make any submissions through email as it gets automatically flagged as spam. 
 
--   If the issue/question is not appropriately addressed, you should consult your instructor without delay through email or during office hours are given on page 1. Please do not email me via Myls and, do not make any submissions through email as it gets automatically flagged as spam.
 
 ## University and Course Policies
 
 -   **Academic Calendars**: Students are encouraged to review the [Academic Calendar](https://academic-calendar.wlu.ca/) for information regarding all important dates, deadlines, and services available on campus.
 
--   The Final Examination will be scheduled by the Examinations Office of the University. You will be provided with the date, time and location as soon as this information becomes available.
-
 -   **Accessibility**: Contact [Accessible Learning](https://students.wlu.ca/academics/support-and-advising/accessible-learning/) if you require academic accommodations because of a disability. Review the [Registration](https://students.wlu.ca/academics/support-and-advising/accessible-learning/registration/) page for information about intake and documentation requirements. Deadlines: Students are responsible for meeting posted deadlines for registering with Accessible Learning and booking accommodated exams. Accessible Learning cannot guarantee accommodations for requests received after posted deadlines.
+-   Library Accessibility Services: The Library offers accessibility services for people with disabilities, including alternate formats or remediation of Library collections and help accessing materials. For information, please visit the [Library Accessibility Hub](https://library.wlu.ca/services/accessibility-hub) or email libaccessibility@wlu.ca.
 
 -   **Plagiarism**: Wilfrid Laurier University uses software that can check for plagiarism. If requested to do so by course instructors, students are required to submit their written work in electronic form and have it checked for plagiarism.
 
--   **Academic Integrity**: Laurier is committed to a culture of integrity within and beyond the classroom. This culture values trustworthiness (i.e., honesty, integrity, reliability), fairness, caring, respect, responsibility and citizenship. Together, we have a shared responsibility to uphold this culture in our academic and nonacademic behaviour. The University has a defined policy with respect to academic misconduct. As a Laurier student you are responsible for familiarizing yourself with this policy and the accompanying penalty guidelines, some of which may appear on your transcript if there is a finding of misconduct. The relevant policy can be found at Laurier's [academic integrity](https://students.wlu.ca/academics/academic-integrity/) website along with resources to educate and support you in upholding a culture of integrity. Ignorance is not a defense.
+-   **Academic Integrity**: Laurier is committed to a culture of integrity within and beyond the classroom. This culture values trustworthiness (i.e., honesty, integrity, reliability), fairness, caring, respect, responsibility and citizenship. Together, we have a shared responsibility to uphold this culture in our academic and nonacademic behaviour. The University has a defined policy with respect to academic misconduct. As a Laurier student you are responsible for familiarizing yourself with this policy and the accompanying penalty guidelines, some of which may appear on your transcript if there is a finding of misconduct. The relevant policy can be found at Laurier's [academic integrity](https://students.wlu.ca/academics/academic-integrity/) website along with resources to educate and support you in upholding a culture of integrity. Ignorance is not a defense. The following, but not limited to, are violations of [Laurier’s Academic Code of Conduct](https://www.wlu.ca/about/governance/assets/resources/12.2-student-code-of-conduct.html): 
+-   
+    1.	Accessing unauthorized resources (Google, chat rooms, Chegg, Reddit, etc.) for assessments.
+    2.	Using technological aids beyond what is listed as permitted in an assessment.
+    3.	Posting test, assignment, lab or exam questions to message boards, social media, or other unauthorized websites (ex. Chegg or CourseHero). While these third parties claim to be tutoring resources, for a fee they take your work and share it with other students; an act that constitutes an action of academic misconduct.  
+    4.	Copying the work of others by way of file or image sharing.
+    5.	Posting test, assignment, lab or exam questions and answers in virtual "course groups" (ex. Facebook, Discord or WhatsApp).
+    6.	Copying the work that is shared or posted in virtual "course groups" (ex. Facebook, Discord or WhatsApp).
+    7.	Working collaboratively with others on assessments that are expected to be completed individually.
+    8.	Copying the work of others by writing down answers that they tell you, but that you did not independently determine.
+    9.	Backdating emails to gain more time to complete assessments.
 
 -   **Late Assignment Policy**: Late or incorrectly submitted labs and assignments are not accepted. Only work submitted correctly and on time is graded. Labs and assignments are submitted through MyLearningSpace dropboxes and may be submitted multiple times. Only the last submission is graded. *Submit early, submit often.* There are no options for make-up work in place of missing labs and assignments.
 
@@ -108,6 +121,15 @@ A missed midterm exam will receive a mark of **Zero** unless there is a valid do
 
 -   **Syllabus Statement - Intellectual Property**: The educational materials developed for this course, including, but not limited to, lecture notes and slides, handout materials, examinations and assignments, and any materials posted to MyLearningSpace, are the intellectual property of the course instructors. These materials have been developed for student use only and they are not intended for wider dissemination and/or communication outside of a given course. Posting or providing unauthorized audio, video, or textual material of course content to third-party websites violates instructors’ intellectual property rights, and the Canadian Copyright Act. Recording lectures in any way is prohibited in this course unless specific permission has been granted by instructors. Failure to follow these instructions may be in contravention of the university’s Student Non-Academic Code of Conduct and/or Code of Academic Conduct, and will result in appropriate penalties. Participation in this course constitutes an agreement by all parties to abide by the relevant University Policies, and to respect the intellectual property of others during and after their association with Wilfrid Laurier University.
 
+- **Other course policies**:
+ 
+*	During remote lectures, the use of electronic devices is allowed only for academic purposes.
+* It is requested to turn off your cellphones during lectures and exams so that you do not distract others. In case of emergency use of a cellphone, please contact the instructor for appropriate arrangements.
+* Students will have two weeks after marks are posted to raise any concern about the marks. After two weeks, no changes will be made. It is the responsibility of the student to ensure all grades are posted in MyLearningSpace.  The instructor reserves the right to remark the entire paper.
+* Grades will not be changed after the final exam has ended regardless of circumstances. If you are missing your marks email your Instructional Assistant immediately.
+
+
+- 
 -   **Foot Patrol, the Wellness Centre, and the Student Food Bank:**
 
     **Multi-campus Resource:**
