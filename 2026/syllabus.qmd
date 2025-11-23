@@ -1,4 +1,8 @@
-## Course Overview and Approach
+## Course Overview: 
+
+This course aims to empower students to use and understand the primary topics in predictive modeling effectively.  The course covers the most current techniques used in machine learning and data analysis and their background theoretical results. The methods covered in this course are Regression Models, LASSO and Ridge Regression, Recursive Partitioning Tree, Random Forest, Linear Discriminant and Quadratic Discriminant Analysis, Neural Network, Deep learning, Support Vector Machine, K-nearest neighbour, linear and generalized models, generalized additive models. The unsupervised learning methods include Hierarchical Clustering, K-means, and model-based clustering methods.  In addition, the course provides case studies that describe specific data analytics projects and provides opportunities to employ a variety of machine learning toolboxes
+
+## Course outcome:
 
 -   Identify machine learning models and algorithms appropriate for solving specific problems.
 
