@@ -1,7 +1,5 @@
 # Working with Python Jupyter Notebooks
 
-## Testing
-
 The Jupyter Notebook is an interactive computing environment that enables users to author notebook documents. It allows you to create and share documents that contain live code, equations, visualizations, and narrative text. It is used for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and more.  Notebook documents provide a complete, self-contained record of a computation that can be converted to various formats and shared (email, Dropbox, GitHub, etc.).
 
 You can work with Jupyter notebooks in three main ways. The first uses [Google Colab](https://colab.research.google.com), which runs everything in the browser. The second uses [Syzygy](https://wlu.syzygy.ca/) platform, that presents a pure Jupyter Notebook Environment. The last one is VS Code on your own computer with a proper Python environment. All options let you run NumPy, Pandas, Matplotlib, scikit learn and any other library you need for the course.
