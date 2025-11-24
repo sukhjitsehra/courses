@@ -1,0 +1,22 @@
+name: mlcourse
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.2
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - scipy
+  - statsmodels
+  - pillow
+  - pip:
+      - xgboost
+      - lightgbm
