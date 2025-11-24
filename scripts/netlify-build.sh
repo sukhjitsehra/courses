@@ -27,3 +27,4 @@ else
 fi
 
 quarto render
+yarn build
