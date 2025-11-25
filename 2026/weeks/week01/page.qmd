@@ -17,9 +17,9 @@ Use your keypad to navigate the slides.
 
 You can practice this week’s material directly in Google Colab. The following notebooks are ready to open:
 
-1. [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Numpy_Pandas_Worksheet.ipynb)
-2. [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Visualization_Worksheet.ipynb)
-3. [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/notebooks/Scikit_learn_Worksheet.ipynb)
+1. [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Numpy_Pandas_Worksheet.ipynb)
+2. [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Visualization_Worksheet.ipynb)
+3. [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Scikit_learn_Worksheet.ipynb)
 
 These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
 
