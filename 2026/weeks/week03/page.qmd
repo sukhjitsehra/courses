@@ -1,0 +1,38 @@
+---
+title: "🗓️ Week 03 - Regression"
+---
+
+In this third week, we will cover linear regression. The true relationships between predictors and responses are rarely linear. But
+linear models often provide reasonable approximation. They provide high interpretability and have low variance, mitigating the risk of over-fitting. Linear models
+can be extended to include (some) non-linear relationships. Linear models also provide an excellent baseline to compare other models against: if our sophisticated model does not do much better than a linear model we might consider trading some bias for lower variance. 
+
+## 👨‍🏫 Lecture Slides 
+
+Either click on the slide area below or click [here](slides.qmd) to view it in fullscreen.
+Use your keypad to navigate the slides.
+
+<div class="container" style="position: relative;overflow: hidden;width: 100%;min-height:600px;">
+<iframe src="slides.html" style="position=absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;min-height:600px;"></iframe>
+</div>
+
+## 📚 Jupyter Notebooks
+
+You can practice this week’s material directly in Google Colab. The following notebooks are ready to open:
+
+1. [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Numpy_Pandas_Worksheet.ipynb)
+2. [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Visualization_Worksheet.ipynb)
+3. [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Scikit_learn_Worksheet.ipynb)
+
+These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
+
+If you prefer a different setup, please click [here](../../tools.qmd) 
+
+Choose whichever environment you’re most comfortable with.
+
+<!-- ## ✍️  Recommended Reading
+
+- Check the end of slides for the list of references cited in the lecture. -->
+
+## 📟 Communication 
+
+- Follow [email rules](../../email.qmd) to email instructor or teaching assistant
