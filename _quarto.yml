@@ -8,6 +8,8 @@ project:
     - "index.qmd"
     - "2026/*.qmd"
     - "2026/weeks/week01/*.qmd"
+    - "2026/weeks/week02/*.qmd"
+    - "2026/weeks/week03/*.qmd"
 
 website:
   title: "CP322 Machine Learning (Winter 2026)"
@@ -59,7 +61,12 @@ website:
            contents:
              - href: 2026/weeks/week02/page.qmd
                text: 👨‍🏫 Lecture Material
-               
+
+         - href: 2026/weeks/week03/page.qmd
+           text: Week 03
+           contents:
+             - href: 2026/weeks/week03/page.qmd
+               text: 👨‍🏫 Lecture Material
   navbar:
     background: primary
   page-footer:
