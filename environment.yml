@@ -18,6 +18,7 @@ dependencies:
   - statsmodels
   - pillow
   - folium
+  - ISLP
   - pip:
       - xgboost
       - lightgbm

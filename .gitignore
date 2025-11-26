@@ -7,6 +7,9 @@
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+# Course backup files
+_course_other_files
+
 # Book build output
 _book
 
@@ -15,6 +18,8 @@ _book
 *.mobi
 *.pdf
 *.csv
+slides.pdf
+.DS_store
 
 /.quarto/
 /_output/

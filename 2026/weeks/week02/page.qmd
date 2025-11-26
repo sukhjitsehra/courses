@@ -1,0 +1,40 @@
+---
+title: "Week 02 - Introduction, Context & Key Concepts"
+---
+
+In this second week, we will cover the fundamental for machine with a through statistical  lens so that you can present the results with confidence. 
+
+## 👨‍🏫 Lecture Slides 
+
+Click <a href="slides.pdf" target="_blank">here</a> to view it in fullscreen. Use your keypad to navigate the slides.
+
+<div style="position: relative; width: 100%; min-height: 600px;">
+  <iframe 
+    src="slides.pdf"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+## 📚 Jupyter Notebooks Contined
+
+You can practice lasts week’s material directly in Google Colab. The following notebooks are ready to open:
+
+1. [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Numpy_Pandas_Worksheet.ipynb)
+2. [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Visualization_Worksheet.ipynb)
+3. [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/courses/blob/main/2026/weeks/week01/notebooks/Scikit_learn_Worksheet.ipynb)
+
+These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
+
+If you prefer a different setup, please click [here](../../tools.qmd) 
+
+Choose whichever environment you’re most comfortable with.
+
+<!-- ## ✍️  Recommended Reading
+
+- Check the end of slides for the list of references cited in the lecture. -->
+
+## 📟 Communication 
+
+- Follow [email rules](../../email.qmd) to email instructor or teaching assistant
