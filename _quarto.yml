@@ -59,11 +59,7 @@ website:
            contents:
              - href: 2026/weeks/week02/page.qmd
                text: 👨‍🏫 Lecture Material
-            #  - href: 2023/weeks/week01/lab.qmd
-            #    text: 💻 Lab Roadmap
-            #  - href: 2023/weeks/week01/appendix.qmd
-            #    text: 🔖 Appendix
-
+               
   navbar:
     background: primary
   page-footer:
