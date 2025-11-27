@@ -2,6 +2,9 @@
 title: "Course Access"
 toc: false
 page-layout: full
+page-navigation: true
+sidebar: false
+navbar: false
 ---
 
 ::: {.course-landing}
