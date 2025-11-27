@@ -6,6 +6,7 @@ project:
     - login
   render:
     - "index.qmd"
+    - "login/index.qmd"
     - "2026/*.qmd"
     - "2026/weeks/week01/*.qmd"
     - "2026/weeks/week02/*.qmd"

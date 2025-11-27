@@ -61,6 +61,15 @@ h1 {
   color: var(--text-muted);
 }
 
+.selected-course {
+  margin-top: 0.75rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.75rem;
+  background: var(--brand-secondary);
+  color: var(--brand-primary);
+  font-weight: 600;
+}
+
 label {
   display: block;
   font-size: 0.95rem;

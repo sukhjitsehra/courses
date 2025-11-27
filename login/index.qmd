@@ -1,0 +1,160 @@
+---
+title: "Course Access"
+toc: false
+page-layout: full
+---
+
+::: {.course-landing}
+<div class="landing-hero">
+  <p class="eyebrow">Private course resources</p>
+  <h1>Choose your course to continue</h1>
+  <p>Select the course you are enrolled in. You will be forwarded to the login page.</p>
+</div>
+
+<div class="course-grid" role="list">
+  <button class="course-card" data-course-code="CP322" data-login-path="/login/access.html" role="listitem">
+    <span class="course-name">CP322 - Machine Learning</span>
+    <span class="course-term">Winter 2026</span>
+    <span class="course-description">Undergraduate machine learning offering with weekly applied labs.</span>
+    <span class="course-action">Continue ></span>
+  </button>
+
+  <button class="course-card" data-course-code="CP421" data-login-path="/login/access.html" role="listitem">
+    <span class="course-name">CP421 - Deep Learning</span>
+    <span class="course-term">Summer 2026</span>
+    <span class="course-description">Advanced topics elective.</span>
+    <span class="course-action">Continue ></span>
+  </button>
+</div>
+
+:::
+
+<style>
+.course-landing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 6rem;
+}
+
+.landing-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.landing-hero .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  border: 1px solid #d4d4d8;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  cursor: pointer;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.course-card:focus,
+.course-card:hover {
+  outline: none;
+  border-color: #2563eb;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.2);
+}
+
+.course-name {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.course-term {
+  display: block;
+  font-size: 0.95rem;
+  color: #475569;
+  margin-top: 0.35rem;
+}
+
+.course-description {
+  display: block;
+  color: #334155;
+  font-size: 0.95rem;
+  margin-top: 0.75rem;
+  min-height: 3.5rem;
+}
+
+.course-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.helper-text {
+  text-align: center;
+  margin-top: 2.5rem;
+  color: #475569;
+}
+
+@media (prefers-color-scheme: dark) {
+  .course-landing { color: #e2e8f0; }
+  .course-card { background: #0f172a; border-color: #1e293b; box-shadow: none; }
+  .course-card:focus,
+  .course-card:hover { border-color: #93c5fd; }
+  .course-name { color: #f8fafc; }
+  .course-term,
+  .course-description,
+  .helper-text { color: #cbd5f5; }
+}
+</style>
+
+<script>
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const next = params.get('next') || '/index.html';
+  const landingButtons = document.querySelectorAll('[data-login-path]');
+
+  if (!landingButtons.length) {
+    return;
+  }
+
+  landingButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const targetPath = button.dataset.loginPath || '/login/access.html';
+      const courseCode = button.dataset.courseCode || '';
+
+      try {
+        const targetUrl = new URL(targetPath, window.location.origin);
+        targetUrl.searchParams.set('next', next);
+        if (courseCode) {
+          targetUrl.searchParams.set('course', courseCode);
+        }
+        window.location.href = `${targetUrl.pathname}${targetUrl.search}`;
+      } catch (error) {
+        const search = new URLSearchParams();
+        search.set('next', next);
+        if (courseCode) {
+          search.set('course', courseCode);
+        }
+        const joiner = targetPath.includes('?') ? '&' : '?';
+        window.location.href = `${targetPath}${joiner}${search.toString()}`;
+      }
+    });
+  });
+})();
+</script>

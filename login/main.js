@@ -5,8 +5,11 @@ const statusMessage = document.getElementById('status-message');
 const submitBtn = document.getElementById('submit-btn');
 const spinner = document.getElementById('spinner');
 const buttonText = document.getElementById('button-text');
+const selectedCourseBanner = document.getElementById('selected-course');
+const selectedCourseValue = document.getElementById('selected-course-value');
 const params = new URLSearchParams(window.location.search);
 const nextPath = params.get('next') || '/index.html';
+const coursePrefill = params.get('course');
 const ACCESS_KEY = 'courseAccess';
 const ENDPOINT = '/.netlify/functions/validate-code';
 
@@ -46,6 +49,22 @@ function hydrateEmail() {
     }
   } catch (error) {
     console.debug('No stored email found', error);
+  }
+}
+
+function hydrateCourseSelection() {
+  if (!coursePrefill) {
+    return;
+  }
+
+  const cleaned = coursePrefill.trim();
+  if (!cleaned) {
+    return;
+  }
+
+  if (selectedCourseBanner && selectedCourseValue) {
+    selectedCourseValue.textContent = cleaned;
+    selectedCourseBanner.hidden = false;
   }
 }
 
@@ -156,3 +175,4 @@ form.addEventListener('submit', async (event) => {
 });
 
 hydrateEmail();
+hydrateCourseSelection();
