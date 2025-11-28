@@ -1,8 +1,8 @@
 ---
-title: "Week 02 - Introduction, Context & Key Concepts"
+title: "Week 04 - Classification"
 ---
 
-In this second week, we will cover the fundamental for machine with a through statistical  lens so that you can present the results with confidence. 
+In the regression scenario the response was quantitative. We now look into the  classification scenario in which the response is qualitative.  We will look at a few of the many available methods for classification in some detail. More methods will be covered in later lectures. 
 
 ## 👨‍🏫 Lecture Slides 
 
@@ -21,9 +21,7 @@ Click <a href="slides.pdf" target="_blank">here</a> to view it in fullscreen. Us
 
 You can practice lasts week’s material directly in Google Colab. The following notebooks are ready to open:
 
-1. [NumPy and Pandas](https://colab.research.google.com/github/sukhjitsehra/cp322/blob/notebooks/week01/Numpy_Pandas_Worksheet.ipynb)
-2. [Matplotlib](https://colab.research.google.com/github/sukhjitsehra/cp322/blob/notebooks/week01/Visualization_Worksheet.ipynb)
-3. [scikit-learn](https://colab.research.google.com/github/sukhjitsehra/cp322/blob/notebooks/week01/Scikit_learn_Worksheet.ipynb)
+1. [Classification](https://colab.research.google.com/github/sukhjitsehra/cp322/blob/notebooks/week04/Classification.ipynb)
 
 These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
 
