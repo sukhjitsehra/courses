@@ -1,3 +1,43 @@
+---
+title: "Regression"
+subtitle: "<font style='font-size:0.6em;'>Supervised Learning</font>"
+author: </br></br> Dr. Sukhjit Singh Sehra </br> <a href="https://www.linkedin.com/in/sukhjitsehra" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" 
+         alt="LinkedIn" width="18" style="vertical-align:middle;">
+  </a> 
+  &nbsp;
+  <a href="https://github.com/sukhjitsehra" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" 
+         alt="GitHub" width="18" style="vertical-align:middle;">
+  </a>
+
+institute:  <font style='font-size:2em;'>Department of Computer Science and Physics </br> Wilfrid Laurier University, Waterloo </font>
+# date: 14 January 2026
+# date-meta: 14 March 2023
+from: markdown+emoji
+format:
+  revealjs: 
+    slide-number: c/t
+    css: [../../../css/syntax-highlight.css, ../../../css/custom.css, /css/pacman.css, ../../../css/styles_slides.css]
+    chalkboard: 
+      buttons: TRUE
+    fig-responsive: true
+    smaller: true
+    scrollable: true
+    theme: beige
+    code-link: true
+    code-overflow: wrap
+    preload-iframes: true
+    fig-align: "center"
+    page-layout: full
+    logo: /figures/icons/laurier-short.png
+    footer: 'CP322: Machine Learning'
+execute: 
+  eval: false
+  echo: true
+  output: false
+---
+
 ## Simple Linear Regression
 - Supervised learning approach
 - Linear regression = Linear model
@@ -15,6 +55,8 @@ $$Y \approx \beta_{0} + \beta_{1}X$$
 - $\beta_{0}$ = intercept
 - $\beta_{1}$ = slope
 
+## Definition Contd...
+
 - **Learned model**: $\hat{y}$ = our prediction of $Y$ from $x$ and using $\hat{\beta}_{0}$ and $\hat{\beta}_{0}$
 $$\hat{y} = \hat{\beta}_{0} + \hat{\beta}_{1}x$$
 
@@ -25,7 +67,7 @@ $$\hat{y} = \hat{\beta}_{0} + \hat{\beta}_{1}x$$
     - $\hat{\beta}_{1}$ = our approximation of slope
     - **hat symbol** ^ denotes "estimated value" for unknown parameters (i.e. something estimated through training)
 
-## Visualization
+## Visualization{background-color="white"}
 
 ![](images/fig3_1.jpg)
 
@@ -39,13 +81,11 @@ $$\hat{y} = \hat{\beta}_{0} + \hat{\beta}_{1}x$$
 - In practice, computers do that! 
     - e.g. `model.fit()`
 
-### Residual sum of squares (RSS)
-> Key ingrediant in the later quantities ($R^2$, $RSE$, $F$)
+## Residual sum of squares (RSS){.smllar}
 
 Let $e_i = y_i - \hat{y_i}$ (called **residual**), where $i$ is the index of of some value $x_i$ from $X$.
 
-Then:
-$$\mathrm{RSS} = e^{2}_{1} + e^{2}_{2} + \ldots + e^{2}_{n}$$
+Then: $\mathrm{RSS} = e^{2}_{1} + e^{2}_{2} + \ldots + e^{2}_{n}$
 
 $$\mathrm{RSS} = (y_{1} - \hat{\beta}_{0} - \hat{\beta}_{1}x_{1})^{2} + (y_{2} - \hat{\beta}_{0} - \hat{\beta}_{1}x_{2})^{2} + \ldots + (y_{n} - \hat{\beta}_{0} - \hat{\beta}_{1}x_{n})^{2}$$
 
@@ -57,7 +97,7 @@ $$\hat{\beta}_{0} = \bar{y} - \hat{\beta}_{1}\bar{x}$$
 
 - $\bar{x}$, $\bar{y}$ = sample means of $x$ and $y$
 
-## Visualization of Fit
+## Visualization of Fit{background-color="white"}
 
 ![](images/fig3_2.jpg)
 
@@ -74,13 +114,16 @@ $$Y = \beta_{0} + \beta_{1}X + \epsilon$$
     - **Assumption 2**: $\epsilon$ is independent of $X$
     - It's here for many reasons (mostly due to our limited knoledge about the REAL relationship between $Y$ and $X$)
     - "[All models are wrong, but some are useful](https://en.wikipedia.org/wiki/All_models_are_wrong)" - George Box
+
+## Assessing Accuracy of Coefficient Estimates Contd..
+
 - Problem:
     - $Y$ is a random variable with population mean $\mu$
     - $\hat{y}$ is a random variable with sample mean $\hat{\mu}$ (estimated using data)
     - **How accurate is the \hat{mu} as an estimate of $\mu$?**
     - This is answered by finding the **standard error** ($SE$) for coefficients
 
-### Standard error of regression coefficients
+## Standard error of regression coefficients
 - Residual standard error (RSE): will be used later to find $SE$
 
 $$\mathrm{RSE} = \sqrt{\frac{\mathrm{RSS}}{n - 2}}$$
@@ -92,6 +135,7 @@ $$\mathrm{SE}(\hat\beta_0)^2 = \sigma^2 \left[\frac{1}{n} + \frac{\bar{x}^2}{\su
 
 $$\mathrm{SE}(\hat\beta_1)^2 = \frac{\sigma^2}{\sum_{i=1}^n (x_i - \bar{x})^2}$$
 
+## Standard error of regression coefficients
 
 - **95% confidence interval:** 
     - a range of values such that with 95% probability, the range will contain the true unknown value of the parameter
@@ -104,11 +148,13 @@ $$\hat\beta_1 \pm 2\ \cdot \ \mathrm{SE}(\hat\beta_1)$$
 $$\hat\beta_0 \pm 2\ \cdot \ \mathrm{SE}(\hat\beta_0)$$
 
 
+## Standard error of regression coefficients Contd ..{background-color="white"}
+
 - Figure below can be read: "*there's approximately 95% chance that the shaded area will contain the true value of $\beta$*"
 
 ![Source: https://mathblog.com/statistics/definitions/confidence-interval/95-ci/](images/03-95-percent-confidence-interval.jpg)
 
-### Using SE in hypothesis testing
+## Using SE in hypothesis testing
 - For any estimated coefficient $\hat{\beta}$:
     1. Formulate a null hypothesis $H_0$ vs. alternative hypothesis $H_a$ about $\hat{\beta}$
     2. Estimate $SE$ 
@@ -120,7 +166,11 @@ $$\hat\beta_0 \pm 2\ \cdot \ \mathrm{SE}(\hat\beta_0)$$
     - if the p-value of some coefficient < $\alpha$, then we say it has **significant** effect on $Y$
     - otherwise, we say it has **insignificant** effect on $Y$
 
-![Table 3.1](images/03-table3_1.png)
+
+## Using SE in hypothesis testing Contd...{background-color="white"}
+
+
+![](images/03-table3_1.png)
 
 - e.g. $H_0$ : There is no relationship between ad. on TV and the increase in sales 
     - $\rightarrow$ slope is approximately 0 
@@ -129,7 +179,7 @@ $$\hat\beta_0 \pm 2\ \cdot \ \mathrm{SE}(\hat\beta_0)$$
 - Easy to do using Python or R
 - More details in chapter 13
 
-## Computing Standard Errors
+## Computing Standard Errors {background-color="white"}
 
 - In Python, the fitted model object has attributes and methods to generate these quantities.
 ```{python}
@@ -157,21 +207,27 @@ new_predictions.conf_int(alpha = 0.05, obs = True)
 ```
 
 ## Assessing the Accuracy of the Model
-> i.e. Model Evaluation
 
+- **Model Evaluation**
+  - Accuracy of the model = Quality of a linear regression fit
+  - There are four quantities for that:
+      1. **Residual standard error** ($RSE$)
+      2. $R^2$ **statistic** 
+      3. Pearson correlation coefficient ($r=Cor(X,Y)$)
+      4. $F$-**statistic** (discussed in next section)
 
-- Accuracy of the model = Quality of a linear regression fit
-- There are four quantities for that:
-    1. **Residual standard error** ($RSE$)
-    2. $R^2$ **statistic** 
-    3. Pearson correlation coefficient ($r=Cor(X,Y)$)
-    4. $F$-**statistic** (discussed in next section)
+## Assessing the Accuracy of the Model
 
 - **RSE**: 
 $$\mathrm{RSE} = \sqrt{\frac{\mathrm{RSS}}{n - 2}}$$
     - **Interpretation:** *absolute measure of the lack of fit of the model*
     - **small value** = model fits the data well
     - measured in the unit of $Y$ (e.g. RSE = 3.2 units sold)
+
+
+
+## Assessing the Accuracy of the Model
+
 - *$R^2$* statistic (a.k.a coefficient of determination): 
 $$RSE = \sqrt{\frac{1}{n-p-1}\text{RSS}}$$
 $$R^2 = 1 - \frac{RSS}{TSS}$$
@@ -181,7 +237,9 @@ $$TSS = \Sigma (y_i - \bar{y})^2$$
     - a *good value* depends on the application.
     - ranges from 0 to 1 ([can be negative in extreme cases?](https://www.graphpad.com/support/faq/how-can-rsup2sup-be-negative/))
 
--$R^2$ has diminished usefulness in the multivariate context
+## Assessing the Accuracy of the Model
+
+- $R^2$ has diminished usefulness in the multivariate context
 - RSE is more appropriate, because it adjusts for the ratio between the number of predictors and the explained variance.
 
 - Pearson correlation coefficient ($r=Cor(X,Y)$)
@@ -191,8 +249,6 @@ $$r = Cor(X,Y) = \frac{\sum{(x_i - \bar{x})(y_i - \bar{y})}}{\sqrt{\sum{(x_i - \
 
 ## Multiple Linear Regression
 
-## Definition
-
 **Multiple linear regression** extends simple linear regression for *p* predictors:
 
 $$Y = \beta_{0} + \beta_{1}X_1 + \beta_{2}X_2 + ... +\beta_{p}X_p + \epsilon_i$$
@@ -200,23 +256,32 @@ $$Y = \beta_{0} + \beta_{1}X_1 + \beta_{2}X_2 + ... +\beta_{p}X_p + \epsilon_i$$
 - $\beta_{j}$ is the *average* effect on $Y$ from $X_{j}$ holding all other predictors fixed.
     - But this is not the case in reality! (e.g. using weight and height as predictors in some model)
 - For $p=2$ predictors, the model represents a plane in the 3D space instead of a line
-![Figure 3.4 in ISLP](images\03-fig3_4.png)
+
 $$\hat{y} = \hat{\beta_{0}} + \hat{\beta_{1}}x_1 + \hat{\beta_{2}}x_2 + ... + \hat{\beta_{p}}x_p$$
+
+
+
+
+
+## Multiple Linear Regression
+
+![](images/03-fig3_4.png){width=4in fig-align="center"}
+
 
 - As in the simple case, we aim to choose the set of coefficients $\hat{\beta_{0}}, \hat{\beta_{1}}, ..., \hat{\beta_{p}}$ that minimizes the $RSS$ when making predictions using $\hat{y}$
 
 - In this section, we assume predictors are **independent** of each others
 
-- Important notes ([from lecture 3](https://www.youtube.com/watch?v=o9hoLdylWKo&list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ&index=15))
-    - Ideal scenario (i.e. balanced design): Predictors are uncorrelated
-    - Correlations amongst predictors cause problems
-        - When a change on some predictor $X_j$ changes everything else, coefficient intepretations become hazardous
-        - Makes thing complicated when discussing **causality**
-    
+::: {.callout-note}
+## Important note 
+
+- Ideal scenario (i.e. balanced design): Predictors are uncorrelated
+- Correlations amongst predictors cause problems
+    - When a change on some predictor $X_j$ changes everything else, coefficient intepretations become hazardous
+    - Makes thing complicated when discussing **causality**
+::: 
 
 ## Important Questions in MLR
-
-> More variables/predictors $\rightarrow$ More things to assess!
 
 1. **Relationship between the resposne and predictors:** *Is at least one of the predictors $X_1$, $X_2$,  ... , $X_p$ useful in predicting the response?*
     a. formulate a null hypothesis $H_0: \beta_1 = \beta_2 = ... = \beta_p = 0$ 
@@ -228,7 +293,8 @@ $$\hat{y} = \hat{\beta_{0}} + \hat{\beta_{1}}x_1 + \hat{\beta_{2}}x_2 + ... + \h
     - a.k.a. Model Selection Problem
     - **Option 1**: test all possibilities and choose the best subset (inefficient with many variables w/ $2^p$ possible models)
     - **Option 2**: use a **variable selection** algorithm (Forward - Backward - Mixed)
-        - Discussed in detail in Chapter 6
+
+## Important Questions in MLR {.incremental}
 
 3. **Model evaluation:** *How well does the model fit the data?*
 
@@ -236,15 +302,11 @@ $$\hat{y} = \hat{\beta_{0}} + \hat{\beta_{1}}x_1 + \hat{\beta_{2}}x_2 + ... + \h
         - Adding predictors w/ no association to $Y$ can reducde $R^2$ but results in overfitting
     - Can also look at **RSE** which is generalized for multiple regression as: $$RSE = \sqrt{\frac{1}{n-p-1}RSS}$$
 
-4. **Making and assising predictions:** *Given a set of predictor values, what response value should we predict,
-and how accurate is our prediction? 
-
-    Three sets of uncertainty in predictions:
+4. **Making and assesing predictions:** *Given a set of predictor values, what response value should we predict, and how accurate is our prediction?* Three sets of uncertainty in predictions:
     
     - Uncertainty in $\hat{\beta_i}$ the estimates of $\beta_i$ (use **confidence interval**)
     - Model bias (i.e. inductive bias): casued by our assumptions
-    - Irreducible error $\epsilon$ (use **prediction interval**): even if we know the true $\beta_i$, there is still $\epsilon$!
-        - PI is wider than CI because it incorporates all all kinds of errors.
+    - Irreducible error $\epsilon$ (use **prediction interval**): even if we know the true $\beta_i$, there is still $\epsilon$! PI is wider than CI because it incorporates all all kinds of errors.
 
 ## Qualitative Predictors
 > a.k.a. *categorical predictors* or *factor variables*
@@ -313,6 +375,8 @@ $$\text{SSR}^\prime = 2(-X^\intercal)(y-X\hat{\beta})$$
 
 $$X^\intercal X \hat{\beta} = X^\intercal y$$
 
+<!-- ## Multivariate OLS Proof
+
 - If $X^\intercal X$ is invertible, then the solution is as above.
 
 - The variance-covariance matrix - which contains the standards errors for each predictor - is also easy to express but more difficult to derive:
@@ -329,7 +393,7 @@ $$
 \text{Var}(\beta_0) & \text{Cov}(\beta_0, \beta_1) & \text{Cov}(\beta_0, \beta_2) \\
 \text{Cov}(\beta_1, \beta_0) & \text{Var}(\beta_1) & \text{Cov}(\beta_1, \beta_2) \\
 \text{Cov}(\beta_2, \beta_0) & \text{Cov}(\beta_2, \beta_1) & \text{Var}(\beta_2) \end{bmatrix} 
-$$
+$$ -->
 
 ## Computing beta
 
@@ -441,6 +505,9 @@ $$H_0: \beta_1 = \beta_2 = ... = 0$$
 
 - Reminder:
 $$RSS = \sum_i y_i - (\hat{\beta}_0 - \hat{\beta}_1x_i)^2$$ 
+
+## F statistics and F tests
+
 - or
 $$RSS = \sum_i (y_i - \hat{y}_i)^2$$
 
@@ -451,6 +518,8 @@ $$TSS = \sum_i (y_i - \bar{y})^2$$
 - Intuitively, we're dividing the explained variance (TSS-RSS) by the level of uncertainty ($\sigma^2$)
 - Larger is better.
 - High values of $n$ can influence significance (just as with p-values)
+
+## F statistics and F tests
 
 - Regression functions often calculate the F-statistic. 
 ```{python}
@@ -511,22 +580,32 @@ X = MS([poly('lstat', degree=2), 'age']).fit_transform(Boston)
 print(X.head())
 ```
 ## Potential Problems
+
 > Common problems with linear models and tips to address them
 
 1. *Non-linear relationships* 
-![Figure 3.9](images/03-fig3_9.png)
-    - Residual plots are useful tool to see if any remaining trends exist. 
-    - If a non-linear associations are observed, consider transformaing predictors before fitting (e.g. $log X$)
-    
+
+![](images/03-fig3_9.png)
+
+
+- Residual plots are useful tool to see if any remaining trends exist. 
+- If a non-linear associations are observed, consider transformaing predictors before fitting (e.g. $log X$)
+
 2. *Correlation of Error Terms*
 
     Linear regression assumes that the error terms $\epsilon_i$ are uncorrelated. Residuals may indicate that this is not correct (obvious *tracking* in the data). One could also look at the autocorrelation of the residuals (e.g. time-series). 
+
+## Potential Problems
     
 3. *Non-constant variance of error terms*
 
     Again this can be revealed by examining the residuals.  Consider transformation of the predictors to remove non-constant variance. The figure below shows residuals demonstrating non-constant variance, and shows this being mitigated to a great extent by log transforming the data.
 
 ![](images/fig3_11.png)
+
+
+## Potential Problems
+
 
 4. *Outliers*
 
@@ -536,7 +615,9 @@ print(X.head())
     - An outlier may not effect the fit much but can have dramatic effect on the **RSE**. 
     - We need to identify these before fitting the model
 
-![Figure 3.12](images/03-fig3_12.png)
+![](images/03-fig3_12.png)
+
+## Potential Problems
 
 5. *High Leverage Points* 
 
@@ -544,7 +625,7 @@ print(X.head())
     - These points can have large impact on the fit, as in the example, including point 41 pulls slope up significantly.
     - Use *leverage statistic* to identify high leverage points before fitting the model, which can be hard to identify in multiple regression.
 
-![](images/fig3_13.png)
+![](images/fig3_13.png){width=4in, fig-align="center"}
 
    - The object returned by `model.fit()` has a `get_influence()` method for leverage statistics. 
 
@@ -557,6 +638,8 @@ ax.set_xlabel('Index')
 ax.set_ylabel('Leverage')
 np.argmax(infl.hat_matrix_diag)
 ```
+
+## Potential Problems
 
 6. *Collinearity*
 
@@ -595,7 +678,8 @@ np.argmax(infl.hat_matrix_diag)
 
     Tool: Prediction intervals for individual response, confidence intervals for average response.
     
-    
+## Answers to the Marketing Plan questions
+
 6. **Is the relationship linear?** 
 
     Tool: Residual Plots
@@ -610,7 +694,9 @@ np.argmax(infl.hat_matrix_diag)
 - Non-parametric methods doesn't make assumptions about the form of $f(X)$ (e.g. linearity)
 - This is essentially a $K$-point moving average.
 
-![](images/03-fig3_16.png)
+![](images/03-fig3_16.png){fig-align="center"}
+
+## Comparison of Linear Regression with K-Nearest Neighbors
 
 - $K$ determines the model smoothness 
     - Small value: low bias & high variance
@@ -619,7 +705,3 @@ np.argmax(infl.hat_matrix_diag)
 - However, parameteric methods outperform non-parameteric methods if the assumptions made were close to the true $f(X)$.
 
 
-
-## Helpful links
-- [https://mlu-explain.github.io/linear-regression/](https://mlu-explain.github.io/linear-regression/)
-- [https://observablehq.com/@yizhe-ang/interactive-visualization-of-linear-regression](https://observablehq.com/@yizhe-ang/interactive-visualization-of-linear-regression)
