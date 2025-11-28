@@ -19,7 +19,7 @@ Use your keypad to navigate the slides.
 
 You can practice this week’s material directly in Google Colab. The following notebooks are ready to open:
 
-1. [Regression](https://colab.research.google.com/github/sukhjitsehra/courses/blob/notebooks/week01/Regression.ipynb)
+1. [Regression](https://colab.research.google.com/github/sukhjitsehra/courses/blob/notebooks/week03/Regression.ipynb)
 
 These notebooks are all stored in the course GitHub repository and can be opened with a single click in Colab.
 
